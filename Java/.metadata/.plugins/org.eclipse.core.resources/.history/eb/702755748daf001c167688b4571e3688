@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package application;
+
+/**
+ * @author Bruno Rodrigues (11211501661@alunos.umc.br)
+ *
+ */
+public class Calculadora {
+
+	/**
+	 * @param args
+	 */	
+	public static void main(String[] args) {
+		Operadores resultado = new Operadores();
+		
+		System.out.println("Aluno 1: " + resultado.avaliaAluno(7, 80));
+		System.out.println();
+		System.out.println("Aluno 2: " + resultado.avaliaAluno(5, 80));
+		System.out.println();
+		System.out.println("Aluno 3: " + resultado.avaliaAluno(5, 60));
+		System.out.println();
+		
+
+	}
+
+}

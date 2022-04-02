@@ -1,0 +1,10 @@
+
+public class application {
+
+	public static void main(String[] args) {
+
+		Contribuinte funcionario1 = new Contribuinte();
+
+	}
+
+}

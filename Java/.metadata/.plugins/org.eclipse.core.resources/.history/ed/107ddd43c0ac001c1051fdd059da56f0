@@ -1,0 +1,13 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+
+		Contribuinte f1 = new Contribuinte("Matheus Brother", "123.123.123-98", 6500.0f);
+		Contribuinte f2 = new Contribuinte("Matheus Brother", "123.123.123-98", 6500.0f);
+		Contribuinte f3 = new Contribuinte("Matheus Brother", "123.123.123-98", 6500.0f);
+		Contribuinte f4 = new Contribuinte("Matheus Brother", "123.123.123-98", 6500.0f);
+
+	}
+
+}

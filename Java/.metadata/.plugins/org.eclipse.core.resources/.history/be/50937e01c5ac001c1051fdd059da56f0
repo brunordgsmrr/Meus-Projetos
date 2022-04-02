@@ -1,0 +1,26 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+
+		Contribuinte f1 = new Contribuinte("Matheus", "111.111.111-11", 1300.0f);
+		Contribuinte f2 = new Contribuinte("João", "222.222.222-22", 2150.0f);
+		Contribuinte f3 = new Contribuinte("Pedro", "333.333.333-33", 3500.0f);
+		Contribuinte f4 = new Contribuinte("Marcia", "444.444.444-44", 5600.0f);
+
+		f1.calcularINSS(); // desconto sob R$ 1.300,00 = 0.0
+		f2.calcularINSS(); // desconto sob R$ 2.150,00 = 161.25
+		f3.calcularINSS(); // desconto sob R$ 3.500,00 = 525.0
+		f4.calcularINSS(); // desconto sob R$ 5.600,00 = 1540.0
+		
+		System.out.printf(f1.toString());
+		System.out.printf(f2.toString());
+		System.out.printf(f3.toString());
+		System.out.printf(f4.toString());
+		
+		System.out.println("Nome: " + f1.getNome()
+				+ "Cpf: " + f1.getCpf()
+				+ "Salário: " + f1.getSalario());
+	}
+
+}

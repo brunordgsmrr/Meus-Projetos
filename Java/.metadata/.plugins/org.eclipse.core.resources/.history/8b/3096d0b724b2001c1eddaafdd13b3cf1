@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package application;
+
+import java.util.Scanner;
+
+/**
+ * @author bruno
+ *
+ */
+public class SistemaAcademico {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		Scanner sc = Scanner(System.in);
+		
+		
+		
+		sc.close();
+
+	}
+
+}

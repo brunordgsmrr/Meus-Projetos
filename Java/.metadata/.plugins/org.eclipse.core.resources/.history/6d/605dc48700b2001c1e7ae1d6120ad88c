@@ -1,0 +1,24 @@
+package application;
+
+public class Aluno {
+
+	private int id;
+	private int faltas;
+	private double p1, p2;
+
+	public Aluno(int id, int faltas, double p1, double p2) {
+		this.id = id;
+		this.faltas = faltas;
+		this.p1 = p1;
+		this.p2 = p2;
+	}
+	
+	
+	
+	if (aulasPeriodo >= faltas) {
+		this.frequencia = faltas / aulasPeriodo * 100;
+	} else {
+		this.frequencia = 0;
+		System.out.println("Valor de faltas ou aulasPeriodo errada");
+	}
+}

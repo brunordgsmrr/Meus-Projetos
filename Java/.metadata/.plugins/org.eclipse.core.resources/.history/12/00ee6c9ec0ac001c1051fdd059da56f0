@@ -1,0 +1,15 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+
+		Contribuinte f1 = new Contribuinte("Matheus Brother", "111.111.111-11", 6500.0f);
+		Contribuinte f2 = new Contribuinte("João", "222.222.222-22", 1200.0f);
+		Contribuinte f3 = new Contribuinte("Pedro", "333.333.333-33", 2500.0f);
+		Contribuinte f4 = new Contribuinte("Marcia", "444.444.444-44", 3600.0f);
+		
+		System.out.printf(f1.toString());
+
+	}
+
+}

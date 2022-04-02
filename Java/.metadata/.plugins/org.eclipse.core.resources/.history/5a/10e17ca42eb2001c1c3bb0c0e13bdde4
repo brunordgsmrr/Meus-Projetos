@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package application;
+
+import java.util.Scanner;
+
+/**
+ * @author bruno
+ *
+ */
+public class SistemaAcademico {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		//id, faltas, p1, p2, aulasPeriodo
+		Aluno aluno1 = new Aluno(1, 90, 2, 4, 100);
+		
+		sc.close();
+
+	}
+
+}
