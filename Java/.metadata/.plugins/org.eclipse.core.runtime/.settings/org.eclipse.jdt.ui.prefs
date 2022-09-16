@@ -2,7 +2,7 @@ content_assist_favorite_static_members=org.junit.Assert.*;org.junit.Assume.*;org
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="application.Aluno"><rhs name\="application.Aluno"/></lhs></history>
 content_assist_number_of_computers=12
 eclipse.preferences.version=1
-org.eclipse.jdt.ui.formatterprofiles.version=21
+org.eclipse.jdt.ui.formatterprofiles.version=22
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="javadoc" deleted\="false" description\="author name" enabled\="true" id\="org.eclipse.jdt.ui.templates.author" name\="@author">@author Bruno Rodrigues (11211501661@alunos.umc.br)</template></templates>
 spelling_locale_initialized=true
